@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="FinalWPF.UserControls.WordleRow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinalWPF.UserControls"
+             xmlns:uc="clr-namespace:FinalWPF.UserControls"
+             mc:Ignorable="d">
+    <Grid Name="grdBase">
+        <Grid.Resources>
+            <Storyboard x:Key="WrongShake">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="RenderTransform.(TranslateTransform.X)" RepeatBehavior="2x">
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.05" Value="5"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.15" Value="-5"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.20" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+        </Grid.Resources>
+        <Grid.RenderTransform>
+            <TranslateTransform X="0" Y="0"/>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <uc:WordleColumn x:Name="column0" Grid.Column="0"/>
+        <uc:WordleColumn x:Name="column1" Grid.Column="1"/>
+        <uc:WordleColumn x:Name="column2" Grid.Column="2"/>
+        <uc:WordleColumn x:Name="column3" Grid.Column="3"/>
+        <uc:WordleColumn x:Name="column4" Grid.Column="4"/>
+    </Grid>
+</UserControl>

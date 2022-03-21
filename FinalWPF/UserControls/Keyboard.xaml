@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="FinalWPF.UserControls.Keyboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinalWPF.UserControls"
+             mc:Ignorable="d">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Border Name="brdQ" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtQ" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Q" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdW" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtW" VerticalAlignment="Center" HorizontalAlignment="Center" Content="W" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdE" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtE" VerticalAlignment="Center" HorizontalAlignment="Center" Content="E" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdR" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtR" Content="R" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdT" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtT" Content="T" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdY" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtY" Content="Y" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdU" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtU" Content="U" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdI" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtI" Content="I" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdO" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtO" Content="O" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdP" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtP" Content="P" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Border Name="brdA" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtA" Content="A" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdS" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtS" Content="S" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdD" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtD" Content="D" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdF" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtF" Content="F" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdG" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtG" Content="G" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdH" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtH" Content="H" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdJ" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtJ" Content="J" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdK" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtK" Content="K" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdL" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtL" Content="L" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Border Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="Auto" Margin="1">
+                <Label Name="txtEnter" Content="Enter" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdZ" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtZ" Content="Z" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdX" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtX" Content="X" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdC" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtC" Content="C" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdV" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtV" Content="V" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdB" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtB" Content="B" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdN" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtN" Content="N" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Name="brdM" Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="40" Margin="1">
+                <Label Name="txtM" Content="M" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+            <Border Background="#607E54" BorderThickness="0" CornerRadius="10" Height="40" Width="Auto" Margin="1">
+                <Label Name="txtBackSpace" Content="Back" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Franklin Gothic Heavy" Foreground="#B6D7A8"/>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
+<!-- 
+#607E54 unused - mid green
+#132F09 wrong - dark green
+#FFD687 close - orange
+#FC8B99 right - pink
+-->
